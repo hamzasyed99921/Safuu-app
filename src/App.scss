@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 .navbar {
@@ -104,61 +107,173 @@
 // Sidebar section end
 
 // Dashboard section start
-.bg_img{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgb(0,0,0,0.7)) , url('./media/images/bg.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat
-    
+.bg_img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0, 0.7)),
+    url("./media/images/bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.dashboard_bg{
-    .container{
-        padding: 60px 80px;
-        // width: 80%;
-        
-        .card{
-            margin: 10px 0;
-            background-color: transparent;
-            border: 1px solid #024b05;
-            border-radius: 10px;
-            cursor: pointer;
-            h5{
-                font-size: 20px;
-                font-weight: 700;
-                color: #fff;
-                a{
-                   
-                    text-decoration: none;
-                    color: #fff;
-                    padding: 9px 26px;
-                    cursor: pointer;
-                    background: #011101;
-                    border-radius: 2px;
-                    border: 2px solid #012b04;
-                    font-weight: 700;
-                    font-size: 20px;
-                
-                }
-              
-            }
-            p{
-                font-size: 20px;
-                padding-top: 10px;
-                color: #07de0f;
-                font-weight: 700;
-            }
-            .timer{
-                span{
-                    margin-top: 15px;
-                    color: #34c439;
-                    font-size: 30px;
-                    background-color: #011a01;
-                    padding: 70px 40px;
-                    border-radius: 50%;
-                }
-                
-            }
+.dashboard_bg {
+  .container {
+    padding: 60px 80px;
+    // width: 80%;
+
+    .card {
+      margin: 10px 0;
+      background-color: transparent;
+      border: 1px solid #024b05;
+      border-radius: 10px;
+      cursor: pointer;
+      h5 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #fff;
+        a {
+          text-decoration: none;
+          color: #fff;
+          padding: 9px 26px;
+          cursor: pointer;
+          background: #011101;
+          border-radius: 2px;
+          border: 2px solid #012b04;
+          font-weight: 700;
+          font-size: 20px;
         }
+      }
+      p {
+        font-size: 20px;
+        padding-top: 10px;
+        color: #07de0f;
+        font-weight: 700;
+      }
+      .timer {
+        span {
+          margin-top: 15px;
+          color: #34c439;
+          font-size: 30px;
+          background-color: #011a01;
+          padding: 70px 40px;
+          border-radius: 50%;
+        }
+      }
     }
+  }
 }
 // Dashboard section end
+
+// Account secction
+.account {
+  .container {
+    padding: 60px 80px;
+    .card {
+      margin: 10px 0;
+      background-color: transparent;
+      border: 1px solid #024b05;
+      border-radius: 10px;
+      cursor: pointer;
+      h5 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #d4d2d1;
+        margin: 0px;
+      }
+      p {
+        font-size: 34px;
+        color: #07de0f;
+        font-weight: 700;
+        margin: 0px;
+      }
+      h4 {
+        color: #d4d2d1;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      h1 {
+        color: #fff;
+        font-size: 16px;
+      }
+      h2 {
+        color: #fff;
+        font-size: 24px;
+      }
+    }
+  }
+}
+// Account secction end
+
+// Swap section
+.swap {
+  width: 80%;
+  .container {
+    padding: 60px 80px;
+
+    .card {
+      margin: 10px 0;
+      background-color: #010901;
+      border: 1px solid #024b05;
+      border-radius: 10px;
+    }
+    p {
+      font-size: 20px;
+      margin: 0%;
+      color: #d0dce8;
+      font-weight: 700;
+    }
+    small {
+      font-size: 15px;
+      font-weight: bold;
+      color: #d0dce8;
+    }
+
+    .input_box {
+      padding: 10px 16px 20px;
+      background-color: #091011;
+      border-radius: 15px;
+
+      p {
+        font-size: 16px;
+        color: #d0dce8;
+      }
+      strong {
+        font-size: 14px;
+        color: #d0dce8;
+      }
+      .value {
+        color: #757575;
+      }
+      small {
+        color: #d0dce8;
+        font-size: 16px;
+        cursor: pointer;
+        &:hover {
+          color: #a9b0b8;
+        }
+        span {
+          font-size: 14px;
+          cursor: pointer;
+          color: #07b60c;
+          &:hover {
+            color: #014606;
+          }
+        }
+      }
+    }
+    button {
+      padding: 13px 30px !important;
+      width: 100%;
+      background: linear-gradient(90deg, #024b05, #36d33b);
+      box-shadow: 0 0 5px 0 #36d63b;
+      border: 2px solid #36d63b;
+      border-radius: 2px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 16px;
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}
+
+// Swap section end

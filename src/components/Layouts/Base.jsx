@@ -7,7 +7,7 @@ const Base = (props) => {
   return (
     <>
         <Header/>
-        <div className='d-flex   bg_img'>
+        <div className='d-flex bg_img'>
         <Sidebar/>
         {props.children}
         </div>

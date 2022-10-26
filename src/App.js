@@ -4,6 +4,8 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Base from './components/Layouts/Base';
 import Dashboard from './pages/Dashboard';
+import Account from './pages/Account';
+import Swap from './pages/Swap';
 
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
       <Base>
         <Routes>
           <Route index path="/" element={<Dashboard/>} />
+          <Route path="/account" element={<Account/>} />
+          <Route path="/swap" element={<Swap/>} />
           {/* <Route path="/*" element={<PageNotFound />}/> */}
         </Routes>
       </Base>

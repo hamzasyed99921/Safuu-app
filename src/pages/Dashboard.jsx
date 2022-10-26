@@ -9,10 +9,7 @@ const Dashboard = () => {
             <div className="col-md-4 col-12 ">
               <div className="row">
                 <div className="col-md-12 col-12">
-                  <div
-                    className="card text-center"
-                    style={{ width: "18rem" }}
-                  >
+                  <div className="card text-center" style={{ width: "18rem" }}>
                     <div className="card-body">
                       <h5 className="card-title">
                         Market Value of Treasury Asset
@@ -56,17 +53,16 @@ const Dashboard = () => {
                   <div className="timer d-flex align-items-center justify-content-center">
                     <span>00:12:15</span>
                   </div>
-                  <h4 className="text-white mt-3" style={{fontSize: '20px'}}>Rebasing...</h4>
+                  <h4 className="text-white mt-3" style={{ fontSize: "20px" }}>
+                    Rebasing...
+                  </h4>
                 </div>
               </div>
             </div>
             <div className="col-md-4 col-12">
               <div className="row">
                 <div className="col-md-12 col-12">
-                  <div
-                    className="card text-center"
-                    style={{ width: "18rem" }}
-                  >
+                  <div className="card text-center" style={{ width: "18rem" }}>
                     <div className="card-body">
                       <h5 className="card-title">SAFUU Insurance Fund Value</h5>
                       <p className="card-text">$2,923</p>
@@ -96,40 +92,39 @@ const Dashboard = () => {
           </div>
 
           <div className="row mt-4">
-            <div className="col-md-4 col-12"><div
-                    className="card text-center"
-                    style={{ width: "18rem", boxShadow: '0 3px 8px #34c439' }}
-                  >
-                    <div className="card-body">
-                      <h5 className="card-title">
-                      # Value of FirePit
-                      </h5>
-                      <p className="card-text">16,294,588.16 SAFUU</p>
-                    </div>
-                  </div></div>
-            <div className="col-md-4 col-12"><div
-                    className="card text-center"
-                    style={{ width: "18rem", boxShadow: '0 3px 8px #34c439' }}
-                  >
-                    <div className="card-body">
-                      <h5 className="card-title">
-                      $ Value of FirePit
-                      </h5>
-                      <p className="card-text">$25,574,057</p>
-                    </div>
-                  </div></div>
-            <div className="col-md-4 col-12"><div
-                    className="card text-center"
-                    style={{ width: "18rem", boxShadow: '0 3px 8px #34c439' }}
-                  >
-                    <div className="card-body">
-                      <h5 className="card-title">
-                      % FirePit : Supply
-
-                      </h5>
-                      <p className="card-text">26.43%</p>
-                    </div>
-                  </div></div>
+            <div className="col-md-4 col-12">
+              <div
+                className="card text-center"
+                style={{ width: "18rem", boxShadow: "0 3px 8px #34c439" }}
+              >
+                <div className="card-body">
+                  <h5 className="card-title"># Value of FirePit</h5>
+                  <p className="card-text">16,294,588.16 SAFUU</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 col-12">
+              <div
+                className="card text-center"
+                style={{ width: "18rem", boxShadow: "0 3px 8px #34c439" }}
+              >
+                <div className="card-body">
+                  <h5 className="card-title">$ Value of FirePit</h5>
+                  <p className="card-text">$25,574,057</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 col-12">
+              <div
+                className="card text-center"
+                style={{ width: "18rem", boxShadow: "0 3px 8px #34c439" }}
+              >
+                <div className="card-body">
+                  <h5 className="card-title">% FirePit : Supply</h5>
+                  <p className="card-text">26.43%</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
