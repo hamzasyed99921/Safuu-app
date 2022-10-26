@@ -1,0 +1,164 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  padding: 30px 0 !important;
+  //   border-bottom: 2px solid #0b6a0e !important;
+  .navbar-brand {
+    text-transform: uppercase;
+    background-color: #34c439;
+    font-size: 30px;
+    color: #fff;
+    padding: 10px 55px;
+    border-radius: 18px;
+    margin-left: 34px;
+    font-weight: 700;
+    &:hover {
+      color: #fff;
+    }
+  }
+  .nav_icons {
+    margin-right: 50px;
+    .icons {
+      padding: 3px;
+      background: #011101;
+      border-radius: 4px;
+      margin-right: 30px;
+      border: 2px solid #025307;
+    }
+  }
+  .safu_link {
+    margin-right: 30px;
+    padding: 13px 30px !important;
+    background: #011101;
+    border-radius: 2px;
+    margin-right: 30px;
+    border: 2px solid #025307;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    &:hover {
+      color: #fff;
+    }
+  }
+  .connect_wallet {
+    padding: 13px 30px !important;
+    background: linear-gradient(90deg, #024b05, #36d33b);
+    box-shadow: 0 0 5px 0 #36d63b;
+    border: 2px solid #36d63b;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 34px;
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+// Sidebar section
+.sidebar {
+  background-color: #011101;
+  width: 300px;
+
+  .container_fluid {
+    border-right: 3px solid #36d63b;
+    border-left: 3px solid #36d63b;
+    margin: 0 0 0 30px;
+    .sidebar_links {
+      img {
+        width: 18%;
+        margin-right: 13px;
+      }
+      ul {
+        padding: 0%;
+        a {
+          text-decoration: none;
+        }
+        li {
+          list-style: none;
+          border-radius: 5px;
+
+          background: #011a01;
+
+          border: none;
+          margin: 20px 0;
+          padding: 10px 40px;
+          color: #fff;
+          font-weight: bold;
+
+          &:visited {
+            background: linear-gradient(90deg, #024b05, #36d33b);
+            box-shadow: 0 0 5px 0 #36d63b;
+            border: 2px solid #36d63b;
+          }
+        }
+      }
+    }
+  }
+}
+// Sidebar section end
+
+// Dashboard section start
+.bg_img{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgb(0,0,0,0.7)) , url('./media/images/bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+    
+}
+.dashboard_bg{
+    .container{
+        padding: 60px 80px;
+        // width: 80%;
+        
+        .card{
+            margin: 10px 0;
+            background-color: transparent;
+            border: 1px solid #024b05;
+            border-radius: 10px;
+            cursor: pointer;
+            h5{
+                font-size: 20px;
+                font-weight: 700;
+                color: #fff;
+                a{
+                   
+                    text-decoration: none;
+                    color: #fff;
+                    padding: 9px 26px;
+                    cursor: pointer;
+                    background: #011101;
+                    border-radius: 2px;
+                    border: 2px solid #012b04;
+                    font-weight: 700;
+                    font-size: 20px;
+                
+                }
+              
+            }
+            p{
+                font-size: 20px;
+                padding-top: 10px;
+                color: #07de0f;
+                font-weight: 700;
+            }
+            .timer{
+                span{
+                    margin-top: 15px;
+                    color: #34c439;
+                    font-size: 30px;
+                    background-color: #011a01;
+                    padding: 70px 40px;
+                    border-radius: 50%;
+                }
+                
+            }
+        }
+    }
+}
+// Dashboard section end
