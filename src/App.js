@@ -6,6 +6,8 @@ import Base from './components/Layouts/Base';
 import Dashboard from './pages/Dashboard';
 import Account from './pages/Account';
 import Swap from './pages/Swap';
+import Calculator from './pages/Calculator';
+import Analytics from './pages/Analytics';
 
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
           <Route index path="/" element={<Dashboard/>} />
           <Route path="/account" element={<Account/>} />
           <Route path="/swap" element={<Swap/>} />
+          <Route path="/calculator" element={<Calculator/>} />
+          <Route path="/analytics" element={<Analytics/>} />
           {/* <Route path="/*" element={<PageNotFound />}/> */}
         </Routes>
       </Base>

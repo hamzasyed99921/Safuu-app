@@ -7,9 +7,14 @@ const Base = (props) => {
   return (
     <>
         <Header/>
-        <div className='d-flex bg_img'>
+        <div className='d-flex  bg_img'>
+        <div className="sidebar-sec">
         <Sidebar/>
+        </div>
+        <div className="main">
+          
         {props.children}
+        </div>
         </div>
         {/* <Footer/> */}
     </>
@@ -17,3 +22,4 @@ const Base = (props) => {
 }
 
 export default Base
+

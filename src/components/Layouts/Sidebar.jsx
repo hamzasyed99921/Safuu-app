@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+
 const Sidebar = () => {
   return (
     <>
-    <div className="scrollbar scrollbar-primary">
-    <div className="force-overflow">
-        <div className='sidebar'>
+
+        <div className='sidebar '>
             <div className="container_fluid">
                 <div className='pt-4'>
                     <div className="sidebar_logo d-flex justify-content-center align-items-center">
@@ -25,8 +25,6 @@ const Sidebar = () => {
                 </div>
             </div>
         </div>
-    </div>
-  </div>
         
     </>
     
@@ -34,3 +32,4 @@ const Sidebar = () => {
 }
 
 export default Sidebar
+

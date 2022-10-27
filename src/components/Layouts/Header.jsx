@@ -4,13 +4,13 @@ import { BsTwitter } from "react-icons/bs";
 import { BsTelegram } from "react-icons/bs";
 import { FaDiscord } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
+import Sidebar from "./Sidebar";
 const Header = () => {
   return (
     <>
       <nav
-        className="navbar navbar-expand-lg "
+        className="navbar navbar-expand-lg d-none d-md-block"
         style={{
-          zIndex: "1",
           backgroundColor: "#010901",
           borderBottom: "2px solid #0b6a0e",
         }}
@@ -68,6 +68,40 @@ const Header = () => {
             </ul>
           </div>
         </div>
+      </nav>
+      <nav
+        className="navbar navbar-expand-lg d-block d-md-none "
+        style={{
+          zIndex: "1",
+          backgroundColor: "#010901",
+          borderBottom: "2px solid #0b6a0e",
+        }}
+        id="navbar_top"
+      >
+        <div className="container-fluid">
+          <button
+            className="navbar-toggler"
+            type="button"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+            // style={{color: '#fff'}}
+          >
+            <span className="navbar-toggler-icon" style={{backgroundColor: '#36d33b' , width: '32px', borderRadius: '6px'}} />
+          </button>
+                <Link className="nav-link connect_wallet" to="#">
+                  Connect Wallet
+                </Link>
+        </div>
+        <div className="offcanvas offcanvas-start text-bg-dark" tabIndex={-1} id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+  <div className="offcanvas-header">
+    <button type="button" className="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close" />
+  </div>
+  <div className="offcanvas-body">
+    <Sidebar/>
+  </div>
+</div>
+
       </nav>
     </>
   );

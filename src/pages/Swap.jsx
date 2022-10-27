@@ -43,14 +43,14 @@ const Swap = () => {
                     </small>
                   </div>
                 </div>
-                <div className="text-center py-4">
+                <div className="text-center py-3">
                   <AiOutlineArrowDown
                     color="white"
                     style={{ cursor: "pointer" }}
                     size={22}
                   />
                 </div>
-                <div className="input_box mt-3">
+                <div className="input_box mt-2">
                   <div className="d-flex justify-content-between align-items-center">
                     <p>To:</p>
                     <strong>Balance: 0</strong>

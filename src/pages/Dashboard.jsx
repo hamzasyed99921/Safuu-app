@@ -6,10 +6,10 @@ const Dashboard = () => {
       <div className="dashboard_bg">
         <div className="container ">
           <div className="row">
-            <div className="col-md-4 col-12 ">
+            <div className="col-md-12 col-lg-12 col-xl-4 col-12 ">
               <div className="row">
                 <div className="col-md-12 col-12">
-                  <div className="card text-center" style={{ width: "18rem" }}>
+                  <div className="card text-center" >
                     <div className="card-body">
                       <h5 className="card-title">
                         Market Value of Treasury Asset
@@ -20,7 +20,7 @@ const Dashboard = () => {
                 </div>
 
                 <div className="col-md-12 col-12">
-                  <div className="card text-center" style={{ width: "18rem" }}>
+                  <div className="card text-center" >
                     <div className="card-body">
                       <h5 className="card-title">Total Supply</h5>
                       <p className="card-text">61,634,066.59</p>
@@ -29,7 +29,7 @@ const Dashboard = () => {
                 </div>
 
                 <div className="col-md-12 col-12">
-                  <div className="card text-center" style={{ width: "18rem" }}>
+                  <div className="card text-center" >
                     <div className="card-body">
                       <h5 className="card-title">Circulating Supply</h5>
                       <p className="card-text">45,339,537.92</p>
@@ -41,7 +41,7 @@ const Dashboard = () => {
             <div className="col-md-4 col-12">
               <div
                 className="card text-center"
-                style={{ width: "18rem", height: "95%" }}
+                style={{ height: "95%" }}
               >
                 <div className="card-body">
                   <h5 className="card-title">
@@ -62,7 +62,7 @@ const Dashboard = () => {
             <div className="col-md-4 col-12">
               <div className="row">
                 <div className="col-md-12 col-12">
-                  <div className="card text-center" style={{ width: "18rem" }}>
+                  <div className="card text-center" >
                     <div className="card-body">
                       <h5 className="card-title">SAFUU Insurance Fund Value</h5>
                       <p className="card-text">$2,923</p>
@@ -71,7 +71,7 @@ const Dashboard = () => {
                 </div>
 
                 <div className="col-md-12 col-12">
-                  <div className="card text-center" style={{ width: "18rem" }}>
+                  <div className="card text-center" >
                     <div className="card-body">
                       <h5 className="card-title">MarketCap</h5>
                       <p className="card-text">$71,159,479</p>
@@ -80,7 +80,7 @@ const Dashboard = () => {
                 </div>
 
                 <div className="col-md-12 col-12">
-                  <div className="card text-center" style={{ width: "18rem" }}>
+                  <div className="card text-center" >
                     <div className="card-body">
                       <h5 className="card-title">Pool Value</h5>
                       <p className="card-text">$9,216,521</p>
@@ -95,7 +95,7 @@ const Dashboard = () => {
             <div className="col-md-4 col-12">
               <div
                 className="card text-center"
-                style={{ width: "18rem", boxShadow: "0 3px 8px #34c439" }}
+                style={{ boxShadow: "0 3px 8px #34c439" }}
               >
                 <div className="card-body">
                   <h5 className="card-title"># Value of FirePit</h5>
@@ -106,7 +106,7 @@ const Dashboard = () => {
             <div className="col-md-4 col-12">
               <div
                 className="card text-center"
-                style={{ width: "18rem", boxShadow: "0 3px 8px #34c439" }}
+                style={{ boxShadow: "0 3px 8px #34c439" }}
               >
                 <div className="card-body">
                   <h5 className="card-title">$ Value of FirePit</h5>
@@ -117,7 +117,7 @@ const Dashboard = () => {
             <div className="col-md-4 col-12">
               <div
                 className="card text-center"
-                style={{ width: "18rem", boxShadow: "0 3px 8px #34c439" }}
+                style={{ boxShadow: "0 3px 8px #34c439" }}
               >
                 <div className="card-body">
                   <h5 className="card-title">% FirePit : Supply</h5>
