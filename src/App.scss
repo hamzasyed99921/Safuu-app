@@ -379,17 +379,20 @@ overflow-y: auto;
             font-size: 14px;
             color: white;
         }
+        .css-187mznn-MuiSlider-root{
+            color: #485048 !important;
+        }
             .css-14pt78w-MuiSlider-rail{
-                height: 10px;
-                background-color: #fff;
+                height: 10px !important;
+                background-color: #fff !important;
             }
             .css-1gv0vcd-MuiSlider-track{
-                border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
-        background: linear-gradient(90deg,#a6daad,#53f369 90%);
-        border-color: #53f369;
-        box-shadow: 0 0 10px rgb(0 0 0 / 20%);
-        height: 10px;
+                border-top-left-radius: 10px !important;
+        border-bottom-left-radius: 10px !important;
+        background: linear-gradient(90deg,#a6daad,#53f369 90%) !important;
+        border-color: #53f369 !important;
+        box-shadow: 0 0 10px rgb(0 0 0 / 20%) !important;
+        height: 10px !important;
             }
     }
     .card_bottom{
