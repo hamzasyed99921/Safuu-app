@@ -1,4 +1,5 @@
-import React from "react";
+import Countdown from "react-countdown";
+import 'animate.css';
 
 const Dashboard = () => {
   return (
@@ -9,7 +10,7 @@ const Dashboard = () => {
             <div className="col-md-12 col-lg-12 col-xl-4 col-12 ">
               <div className="row">
                 <div className="col-md-12 col-12">
-                  <div className="card text-center" >
+                  <div className="card text-center">
                     <div className="card-body">
                       <h5 className="card-title">
                         Market Value of Treasury Asset
@@ -20,7 +21,7 @@ const Dashboard = () => {
                 </div>
 
                 <div className="col-md-12 col-12">
-                  <div className="card text-center" >
+                  <div className="card text-center">
                     <div className="card-body">
                       <h5 className="card-title">Total Supply</h5>
                       <p className="card-text">61,634,066.59</p>
@@ -29,7 +30,7 @@ const Dashboard = () => {
                 </div>
 
                 <div className="col-md-12 col-12">
-                  <div className="card text-center" >
+                  <div className="card text-center">
                     <div className="card-body">
                       <h5 className="card-title">Circulating Supply</h5>
                       <p className="card-text">45,339,537.92</p>
@@ -39,10 +40,7 @@ const Dashboard = () => {
               </div>
             </div>
             <div className="col-md-12 col-lg-12 col-xl-4 col-12">
-              <div
-                className="card text-center"
-                style={{ height: "95%" }}
-              >
+              <div className="card text-center" style={{ height: "95%" }}>
                 <div className="card-body">
                   <h5 className="card-title">
                     <a href="#" className="mt-3">
@@ -50,10 +48,18 @@ const Dashboard = () => {
                     </a>
                   </h5>
                   <p className="card-text">$1.56</p>
-                  <div className="timer d-flex align-items-center justify-content-center">
-                    <span>00:12:15</span>
+                  <div className="d-flex align-items-center justify-content-center">
+                  <div className="timer  ">
+                    <span className="animate__heartBeat">
+                      <Countdown date={Date.now() + 1000000}
+                      zeroPadTime={2}
+                     >
+                        
+                      </Countdown>
+                    </span>
                   </div>
-                  <h4 className="text-white mt-3" style={{ fontSize: "20px" }}>
+                  </div>
+                  <h4 className="text-white mt-5" style={{ fontSize: "20px" }}>
                     Rebasing...
                   </h4>
                 </div>
@@ -62,7 +68,7 @@ const Dashboard = () => {
             <div className="col-md-12 col-lg-12 col-xl-4 col-12">
               <div className="row">
                 <div className="col-md-12 col-12">
-                  <div className="card text-center" >
+                  <div className="card text-center">
                     <div className="card-body">
                       <h5 className="card-title">SAFUU Insurance Fund Value</h5>
                       <p className="card-text">$2,923</p>
@@ -71,7 +77,7 @@ const Dashboard = () => {
                 </div>
 
                 <div className="col-md-12 col-12">
-                  <div className="card text-center" >
+                  <div className="card text-center">
                     <div className="card-body">
                       <h5 className="card-title">MarketCap</h5>
                       <p className="card-text">$71,159,479</p>
@@ -80,7 +86,7 @@ const Dashboard = () => {
                 </div>
 
                 <div className="col-md-12 col-12">
-                  <div className="card text-center" >
+                  <div className="card text-center">
                     <div className="card-body">
                       <h5 className="card-title">Pool Value</h5>
                       <p className="card-text">$9,216,521</p>

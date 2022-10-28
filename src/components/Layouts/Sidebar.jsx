@@ -20,9 +20,9 @@ const Sidebar = () => {
                     <div className="sidebar_logo d-flex justify-content-center align-items-center">
                         <img src="assets/images/logo.png" className='w-50 img-fluid' alt="logo" />
                     </div>
-                    <div className='sidebar_links d-flex justify-content-center align-items-center'>
+                    <div className='sidebar_links d-flex justify-content-center align-items-center' data-bs-dismiss="offcanvas">
                         <ul id="myDIV">
-                            <Link to="/" ><li ><img src="assets/images/download.png" className='img-fluid' alt="" /> Dashboard</li></Link>
+                            <Link to="/" ><li ><img src="assets/images/download.png" className='img-fluid'  alt="" /> Dashboard</li></Link>
                             <Link to='/account'><li ><img src="assets/images/download (1).png" className='img-fluid' alt="" />Account</li></Link>
                             <Link to='/swap'><li ><img src="assets/images/download (2).png" className='img-fluid' alt="" />Swap</li></Link>
                             <Link to='/calculator'><li ><img src="assets/images/download (3).png" className='img-fluid' alt="" />Calculator</li></Link>

@@ -1,7 +1,9 @@
-import React from "react";
+import React,{useState} from "react";
 import Slider from "@mui/material/Slider";
 
 const Calculator = () => {
+  const [data, setdata] = useState([]);
+  
   return (
     <>
       <div className="calculator">
@@ -33,7 +35,9 @@ const Calculator = () => {
                   <input
                     type=""
                     className="form-control"
+                    value={data}
                     placeholder="Amount"
+                    onChange={(e) => setdata(e.target.value)}
                   />
                 </div>
                 <div className="col-md-6">
@@ -42,6 +46,7 @@ const Calculator = () => {
                   <input
                     type="text"
                     className="form-control"
+                    value={383025.8}
                     placeholder="Amount"
                   />
                 </div>
@@ -53,6 +58,7 @@ const Calculator = () => {
                   <input
                     type="text"
                     className="form-control"
+                    value={1.54}
                     placeholder="Amount"
                   />
                 </div>
@@ -62,6 +68,7 @@ const Calculator = () => {
                   <input
                     type="text"
                     className="form-control"
+                    value={1.54}
                     placeholder="Amount"
                   />
                 </div>
@@ -93,19 +100,19 @@ const Calculator = () => {
               <div className="card_bottom mt-3">
                 <div className=" px-2 d-flex justify-content-between">
                   <h1>Your initial investment</h1>
-                  <h2>$0</h2>
+                  <h2>{`$${data * 1.5}`}</h2>
                 </div>
                 <div className="px-2 d-flex justify-content-between">
                   <h1>Current wealth</h1>
-                  <h2>$0</h2>
+                  <h2>{`$${data * 2.5}`}</h2>
                 </div>
                 <div className=" px-2 d-flex justify-content-between">
                   <h1>SAFUU rewards estimation</h1>
-                  <h2>0 SAFUU</h2>
+                  <h2>{`$${data * 1.2} SAFUU`}</h2>
                 </div>
                 <div className=" px-2 d-flex justify-content-between">
                   <h1>Potential return</h1>
-                  <h2>$0</h2>
+                  <h2>{`$${data * 3.5}`}</h2>
                 </div>
               </div>
             </div>
