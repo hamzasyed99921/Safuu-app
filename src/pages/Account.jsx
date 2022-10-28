@@ -4,10 +4,10 @@ const Account = () => {
   return (
     <>
       <div className="account">
-        <div className="container">
+        <div className="container" data-aos="zoom-in">
           <div className="row">
-            <div className="col-md-4 col-12">
-              <div className="card text-center" style={{ width: "18rem" }}>
+            <div className="col-md-12 col-lg-12 col-xl-4 col-12">
+              <div className="card text-center" >
                 <div className="card-body">
                   <h5 className="card-title">Your Balance</h5>
                   <p className="card-text">$0</p>
@@ -15,8 +15,8 @@ const Account = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-12">
-              <div className="card text-center" style={{ width: "18rem" }}>
+            <div className="col-md-12 col-lg-12 col-xl-4 col-12">
+              <div className="card text-center" >
                 <div className="card-body">
                   <h5 className="card-title">APY</h5>
                   <p className="card-text">383,025.8%</p>
@@ -24,8 +24,8 @@ const Account = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-12">
-              <div className="card text-center" style={{ width: "18rem" }}>
+            <div className="col-md-12 col-lg-12 col-xl-4 col-12">
+              <div className="card text-center" >
                 <div className="card-body">
                   <h5 className="card-title">Next Rebase:</h5>
                   <p className="card-text">00:02:12</p>
@@ -35,7 +35,7 @@ const Account = () => {
             </div>
           </div>
           <div className="row mt-4">
-            <div className="col-md-12 col-12">
+            <div className="col-md-12 col-lg-12 col-xl-12 col-12">
             <div className="card ">
                 <div className="card-body ">
                  <div className="py-2 px-2 d-flex justify-content-between">

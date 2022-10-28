@@ -4,7 +4,7 @@ const Dashboard = () => {
   return (
     <>
       <div className="dashboard_bg">
-        <div className="container ">
+        <div className="container " data-aos="zoom-in">
           <div className="row">
             <div className="col-md-12 col-lg-12 col-xl-4 col-12 ">
               <div className="row">
@@ -38,7 +38,7 @@ const Dashboard = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-12">
+            <div className="col-md-12 col-lg-12 col-xl-4 col-12">
               <div
                 className="card text-center"
                 style={{ height: "95%" }}
@@ -59,7 +59,7 @@ const Dashboard = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-12">
+            <div className="col-md-12 col-lg-12 col-xl-4 col-12">
               <div className="row">
                 <div className="col-md-12 col-12">
                   <div className="card text-center" >
@@ -92,7 +92,7 @@ const Dashboard = () => {
           </div>
 
           <div className="row mt-4">
-            <div className="col-md-4 col-12">
+            <div className="col-md-12 col-lg-12 col-xl-4 col-12">
               <div
                 className="card text-center"
                 style={{ boxShadow: "0 3px 8px #34c439" }}
@@ -103,7 +103,7 @@ const Dashboard = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-12">
+            <div className="col-md-12 col-lg-12 col-xl-4 col-12">
               <div
                 className="card text-center"
                 style={{ boxShadow: "0 3px 8px #34c439" }}
@@ -114,7 +114,7 @@ const Dashboard = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-12">
+            <div className="col-md-12 col-lg-12 col-xl-4 col-12">
               <div
                 className="card text-center"
                 style={{ boxShadow: "0 3px 8px #34c439" }}

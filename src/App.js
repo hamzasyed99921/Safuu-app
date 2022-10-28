@@ -1,4 +1,5 @@
 import './App.scss';
+import { useEffect } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -8,9 +9,16 @@ import Account from './pages/Account';
 import Swap from './pages/Swap';
 import Calculator from './pages/Calculator';
 import Analytics from './pages/Analytics';
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration : 400
+    });
+  }, []);
   return (
     <div className="App">
        <BrowserRouter>

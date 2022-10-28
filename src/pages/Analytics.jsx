@@ -4,10 +4,10 @@ const Analytics = () => {
   return (
     <>
       <div className="analytics">
-        <div className="container">
+        <div className="container" data-aos="zoom-in">
           <div className="row">
-            <div className="col-md-4 col-12">
-              <div className="card " style={{ width: "18rem" }}>
+            <div className="col-md-12 col-lg-12 col-xl-4  col-12">
+              <div className="card ">
                 <div className="card-body">
                   <h5 className="card-title text-center">
                     How much you have invested so far?
@@ -24,8 +24,8 @@ const Analytics = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-12">
-              <div className="card text-center" style={{ width: "18rem" }}>
+            <div className="col-md-12 col-lg-12 col-xl-4 col-12">
+              <div className="card text-center" >
                 <div className="card-body">
                   <h5 className="card-title">Risk Meter</h5>
                   <div className="d-flex justify-content-center position-relative">
@@ -47,8 +47,8 @@ const Analytics = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-12">
-              <div className="card text-center" style={{ width: "18rem" }}>
+            <div className="col-md-12 col-lg-12 col-xl-4 col-12">
+              <div className="card text-center" >
                 <div className="card-body">
                   <h5 className="card-title text-center">
                     How much you have withdrawn so far?

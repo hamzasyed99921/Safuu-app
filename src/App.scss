@@ -109,6 +109,7 @@ overflow-y: auto;
         padding: 0%;
         a {
           text-decoration: none;
+          color: white;
         }
         li {
           list-style: none;
@@ -121,12 +122,14 @@ overflow-y: auto;
           padding: 10px 40px;
           color: #fff;
           font-weight: bold;
-
-          &:visited {
+          
+          &:active {
             background: linear-gradient(90deg, #024b05, #36d33b);
             box-shadow: 0 0 5px 0 #36d63b;
             border: 2px solid #36d63b;
+            
           }
+         
         }
       }
     }
@@ -366,6 +369,18 @@ overflow-y: auto;
             font-size: 14px;
             color: white;
         }
+            .css-14pt78w-MuiSlider-rail{
+                height: 10px;
+                background-color: #fff;
+            }
+            .css-1gv0vcd-MuiSlider-track{
+                border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background: linear-gradient(90deg,#a6daad,#53f369 90%);
+        border-color: #53f369;
+        box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+        height: 10px;
+            }
     }
     .card_bottom{
         h1{
@@ -444,12 +459,23 @@ overflow-y: auto;
 }
 // Analytics end
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 600px) {
     .sidebar-sec{
         width: 0px !important;
         border-left: none !important;
     }
+    .container{
+        padding: 14px !important;
+    }
     .main{
         margin: 0px;
     }
+    .card{
+        overflow: scroll;
+    }
+    .sidebar{
+        .container_fluid{
+            border: none;
+        }
+    } 
 }

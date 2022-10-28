@@ -7,7 +7,7 @@ const Swap = () => {
   return (
     <>
       <div className="swap">
-        <div className="container d-flex justify-content-center">
+        <div className="container d-flex justify-content-center " data-aos="zoom-in">
           <div>
             <div
               className="card"

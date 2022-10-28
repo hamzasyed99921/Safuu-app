@@ -1,10 +1,11 @@
 import React from "react";
+import Slider from "@mui/material/Slider";
 
 const Calculator = () => {
   return (
     <>
       <div className="calculator">
-        <div className="container">
+        <div className="container" data-aos="zoom-in">
           <div className="card  ">
             <div className="card-title pt-3 px-4">
               <h4>Calculator</h4>
@@ -56,7 +57,7 @@ const Calculator = () => {
                   />
                 </div>
                 <div className="col-md-6">
-                  <label htmlFor="amount">Future SAFUU market price ($)</label>
+                  <label htmlFor="amount">Future SAFUU market ($)</label>
                   <br />
                   <input
                     type="text"
@@ -71,39 +72,41 @@ const Calculator = () => {
                     <span>30 days</span> First Year : 0.02355% Per EPOCH
                   </label>
                   <br />
-                  <input
-                    type="range"
-                    className="w-100 mt-3"
+                  <Slider
+                    aria-label="Temperature"
+                    defaultValue={30}
+                    className="slider"
                   />
                 </div>
                 <div className="col-md-6 col-12">
-                <label htmlFor="amount">
-                Second Year : 0.00211% Per EPOCH
+                  <label htmlFor="amount">
+                    Second Year : 0.00211% Per EPOCH
                   </label>
                   <br />
-                  <input
-                    type="range"
-                    className="w-100 mt-3"
+                  <Slider
+                    aria-label="Temperature"
+                    defaultValue={30}
+                    className="slider"
                   />
                 </div>
               </div>
               <div className="card_bottom mt-3">
-              <div className=" px-2 d-flex justify-content-between">
-                    <h1>Your initial investment</h1>
-                    <h2>$0</h2>
-                 </div>
-                 <div className="px-2 d-flex justify-content-between">
-                    <h1>Current wealth</h1>
-                    <h2>$0</h2>
-                 </div>
-                 <div className=" px-2 d-flex justify-content-between">
-                    <h1>SAFUU rewards estimation</h1>
-                    <h2>0 SAFUU</h2>
-                 </div>
-                 <div className=" px-2 d-flex justify-content-between">
-                    <h1>Potential return</h1>
-                    <h2>$0</h2>
-                 </div>
+                <div className=" px-2 d-flex justify-content-between">
+                  <h1>Your initial investment</h1>
+                  <h2>$0</h2>
+                </div>
+                <div className="px-2 d-flex justify-content-between">
+                  <h1>Current wealth</h1>
+                  <h2>$0</h2>
+                </div>
+                <div className=" px-2 d-flex justify-content-between">
+                  <h1>SAFUU rewards estimation</h1>
+                  <h2>0 SAFUU</h2>
+                </div>
+                <div className=" px-2 d-flex justify-content-between">
+                  <h1>Potential return</h1>
+                  <h2>$0</h2>
+                </div>
               </div>
             </div>
           </div>
