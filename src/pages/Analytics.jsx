@@ -19,7 +19,7 @@ const Analytics = () => {
                       alt=""
                     />
                   </div>
-                  <h2 className="card-text">Total Investment</h2>
+                  <h2 className="card-text text-center">Total Investment</h2>
                   <button>$0</button>
                 </div>
               </div>
@@ -28,10 +28,10 @@ const Analytics = () => {
               <div className="card text-center" >
                 <div className="card-body">
                   <h5 className="card-title">Risk Meter</h5>
-                  <div className="d-flex justify-content-center position-relative">
+                  <div className="d-flex meter justify-content-center position-relative">
                     <img
                       src="assets/images/meter.png"
-                      style={{ width: "97%" }}
+                      // style={{ }}
                       className="img-fluid "
                       alt=""
                     />
